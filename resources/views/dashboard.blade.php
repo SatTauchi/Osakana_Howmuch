@@ -144,19 +144,19 @@
         </div>
     </div>
     
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+    <div class="grid grid-cols-1 md:grid-cols-1 gap-6 mt-6">
         <div class="dashboard-card bg-white rounded-3xl shadow-lg p-6 transition duration-300 ease-in-out hover:shadow-xl flex flex-col">
             <h3 class="text-xl font-bold mb-4 text-primary">自社の仕入割合</h3>
             <div class="chart-container flex-grow relative w-full" style="height: 300px;">
                 <canvas id="pie-chart" class="w-full h-full"></canvas>
             </div>
-        </div>
-        <div class="bg-white rounded-3xl shadow-lg p-6 transition duration-300 ease-in-out hover:shadow-xl">
-            <h3 class="text-xl font-bold mb-4 text-primary">中野支部　価格情報</h3>
-            <ul class="space-y-4" id="recent-comments">
+        <!--</div>-->
+        <!--<div class="bg-white rounded-3xl shadow-lg p-6 transition duration-300 ease-in-out hover:shadow-xl">-->
+        <!--    <h3 class="text-xl font-bold mb-4 text-primary">中野支部　価格情報</h3>-->
+        <!--    <ul class="space-y-4" id="recent-comments">-->
                 <!-- 新着コメントがここに動的に挿入されます -->
-            </ul>
-        </div>
+        <!--    </ul>-->
+        <!--</div>-->
     </div>
 
     <!-- 消費期限アラートセクション -->
